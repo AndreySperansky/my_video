@@ -292,6 +292,15 @@ footer {
     text-transform: uppercase;
 }
 
+.vjs-big-play-button {
+    /*position: unset !important;*/
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%);
+    /*margin: 0 auto !important;*/
+}
+
+
 #loader-wrapper {
     position: fixed;
     top: 0;
